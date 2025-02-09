@@ -1,6 +1,7 @@
 This project is part of my training at Web-Master, where I implemented and activated a verification code system for user authentication.
 
 Features:
+
 ✅ User Registration & Login System
 
 ✅ Email & Password Validation
