@@ -14,10 +14,10 @@ createAccount.addEventListener("click", (e) => {
   if (fullname.value.length >= 3) {
     document.getElementById("errors").innerText = "";
     fullname.classList.remove("Error-input");
-    if (email.value.length >= 5) {
+    if (email.value.length >= 10) {
       document.getElementById("errors").innerText = "";
       email.classList.remove("Error-input");
-      if (password.value.length >= 10) {
+      if (password.value.length >= 5) {
         document.getElementById("errors").innerText = "";
         storageData.push(FetchData);
         localStorage.setItem("users", JSON.stringify(storageData));
