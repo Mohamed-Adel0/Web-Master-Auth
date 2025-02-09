@@ -22,7 +22,7 @@ createAccount.addEventListener("click", (e) => {
         storageData.push(FetchData);
         localStorage.setItem("users", JSON.stringify(storageData));
         password.classList.remove("Error-input");
-        location.pathname = "/Web-Master-Auth/index.html";
+        window.location.assign("/Web-Master-Auth/index.html");
       } else {
         password.classList.add("Error-input");
         document.getElementById("errors").innerText =
