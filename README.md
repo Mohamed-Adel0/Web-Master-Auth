@@ -6,8 +6,6 @@ Features:
 
 ✅ Email & Password Validation
 
-✅ Verification Code Activation
-
 ✅ Error Handling & User Feedback
 
 This project was built as a learning exercise to enhance authentication security and improve my development skills
